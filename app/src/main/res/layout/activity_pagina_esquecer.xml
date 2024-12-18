@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/background_color">
+
+
+    <TextView
+        android:background="@drawable/baseline_recuperar_24"
+        android:id="@+id/recuperar"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"/>
+
+    <EditText
+        android:id="@+id/id_telefone"
+        android:layout_marginTop="45dp"
+        android:layout_width="350dp"
+        android:backgroundTint="@color/white"
+        android:inputType="phone|number"
+        android:layout_gravity="center"
+        android:layout_height="60dp"
+        android:hint="Numero de telefone" />
+
+    <Button
+        android:id="@+id/id_recuperarS"
+        android:layout_width="250dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:textSize="16sp"
+        android:text="Recuperar a palavra-passe"
+        android:background="@drawable/buttons_gradient"/>
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/background_color">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Menu de actividades"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="35dp"
+        android:layout_marginTop="100dp"/>
+
+    <Button
+        android:id="@+id/botao_informacoes"
+        android:text="Informacoes do aluno"
+        android:layout_marginTop="100dp"
+        android:layout_width="180dp"
+        android:textSize="17dp"
+        android:backgroundTint="#92D9CF8C"
+        android:background="@drawable/background_menu"
+        android:layout_height="130dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/botao_calendario"
+        android:layout_marginTop="15dp"
+        android:layout_width="180dp"
+        android:textSize="17dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#DDDDC0"
+        android:background="@drawable/background_menu"
+        android:text="Calendario academico"/>
+
+    <Button
+        android:id="@+id/botao_configuracoes"
+        android:layout_width="180dp"
+        android:layout_height="130dp"
+        android:background="@drawable/background_menu"
+        android:layout_gravity="center"
+        android:textSize="17dp"
+        android:layout_marginTop="15dp"
+        android:text="Configuracoes do aplicativo"/>
+
+    <TextView
+        android:id="@+id/botao_sair_conta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Sair da conta"
+        android:textColor="@color/white"
+        android:drawableRight="@drawable/baseline_sair_24"
+        android:textStyle="normal"
+        android:textSize="22dp"
+        android:layout_marginTop="100dp"/>
+</LinearLayout>
